@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+// colors
+$red: #E14900;
+$secondery-color: #D4E043;
+$nav-text-color: #161616;
+$green: #004008;
+
+// Layout
+$max-width: 1349px;
+$body-max-width: 1242px;
+$padding: 0px 10px;
+
+@import "_module/home";
+@import "_module/header";
+@import "_module/footer";
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+*{
+padding: 0;
+margin: 0;
+}
